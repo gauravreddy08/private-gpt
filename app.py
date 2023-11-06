@@ -1,7 +1,7 @@
 import streamlit as st
 from gpt import perform_function
 
-api = st.secrets['api']
+api = st.secrets['API']
 
 if "messages" not in st.session_state:
     st.session_state.messages = [{"role": "assistant", "content": 'Hello! How can I assist you today?'}]
