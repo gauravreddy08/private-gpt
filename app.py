@@ -23,7 +23,7 @@ service_account= {
 
 def perform_function(messages):
     chat = openai.ChatCompletion.create( 
-            model="gpt-4-vision-preview", messages=messages)
+            model="gpt-4-1106-preview", messages=messages)
     reply = chat.choices[0].message.content 
     return reply
 
