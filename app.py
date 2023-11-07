@@ -10,7 +10,7 @@ valid_image_extensions = [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".we
 service_account= {
   "type" : st.secrets['firebase']['type'],
   "project_id" : st.secrets['firebase']['project_id'],
-  "private_key_id" : st.secrets['firebase']['project_key_id'],
+  "private_key_id" : st.secrets['firebase']['private_key_id'],
   "private_key" : st.secrets['firebase']['private_key'],
   "client_email" : st.secrets['firebase']['client_email'],
   "client_id" : st.secrets['firebase']['client_id'],
